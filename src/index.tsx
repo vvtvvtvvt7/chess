@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './components/app/App';
 import reportWebVitals from './reportWebVitals';
 import { getUsers } from './api/getUsers';
+import 'antd/dist/antd.css';
 
-getUsers(100, 1);
+getUsers(25, 1);
 
 ReactDOM.render(
   <React.StrictMode>
